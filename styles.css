@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.first-container{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background: linear-gradient(90deg,rgba(215,78,110,1) 1%, 
+    rgba(137,212,235,1) 100%);
+    padding:70px 60px; 
+    border-radius: 10px;
+    width:250px;
+    
+}
+* .first-container h1{
+    position: relative;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+.second-container{
+    position: absolute;
+    background-color: rgb(238, 238, 238);
+    width: 250px;
+    left: 475px;
+    top: 50px;
+    border-radius: 10px;
+    padding: 50px 60px;
+    
+}
+/*div.circle is for all circle which are in all container*/
+div.circle{
+    background:  linear-gradient(90deg,rgba(215,78,110,1) 1%, 
+    rgba(137,212,235,1) 100%);
+    position:absolute;
+    width: 60px;
+    height: 60px;
+    left: 60px;
+    top: -30px;
+    border-radius: 50%;
+}
+/* a i style is for arrow style*/
+a i {
+    position: relative;
+    top: 5px;
+    left: 8px;
+    font-size: 30px;
+    color:rgb(235, 83, 83);
+}
+i{
+position: absolute;
+top: -20px;
+left: 75px;
+color: white;
+
+}
+/*p is use for all paragraph and a is for all a link*/
+ p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ a{
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.third-container{
+    position: absolute;
+    background-color: rgb(238, 238, 238);
+    width: 250px;
+    left: 900px;
+    top: 50px;
+    border-radius: 10px;
+    padding: 50px 60px;
+}
+/*h1 is use for h1 headings*/
+ h1{
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;;
+}
+
+.fourth-container{
+    position: relative;
+    top: 405px;
+    left: 50px;
+    width: 250px;
+    background-color:rgb(238, 238, 238) ;
+    padding: 70px 60px;
+    border-radius: 10px;
+
+}
+
+
+.fifth-container{
+    position: relative;
+    top: 65px;
+    left: 475px;
+    width: 250px;
+    background-color: rgb(238, 238, 238);
+    padding: 70px 60px;
+    border-radius: 10px;
+}
+
+.sixth-container{
+    position: absolute;
+    top: 405px;
+    left: 900px;
+    width: 250px;
+    background-color: rgb(238, 238, 238);
+    padding: 80px 60px;
+    border-radius: 10px ;
+}
+
